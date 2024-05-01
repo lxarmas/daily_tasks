@@ -32,7 +32,7 @@ export default function App() {
 
   function handleClearList() {
     const confirmed = window.confirm(
-      "Are you sure you want to delete all items?"
+      "These will clear all your daily tasks, are you sure?"
     )
     if(confirmed)setItems( [] );
  }

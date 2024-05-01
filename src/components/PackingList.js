@@ -28,11 +28,11 @@ export default function PackingList( { items, onDeleteItem, onToggleItem, onClea
         <select value={sortBy}
           onChange={( e ) => setSortBy( e.target.value )}
         >
-          <option value="input">Sort by input order</option>
-          <option value="description">Sort by description</option>
-          <option value="packed">Sort by packed status</option>
+          <option value="input">Sort by input daily tasks</option>
+          <option value="description">Sort by description of daily tasks</option>
+          <option value="packed">Sort by packed status of daily tasks</option>
         </select>
-        <button onClick={onClearList}>Clear List</button>
+        <button onClick={onClearList}>Clear daily tasks List</button>
       </div>
 
     </div>

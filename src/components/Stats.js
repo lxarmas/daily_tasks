@@ -2,7 +2,7 @@ export default  function Stats( { items } ) {
   if ( !items.length )
     return (
       <p className="stats">
-        <em>Start adding some items to your packing list 🚀 </em>
+        <em>Let' make this day productive!! start adding items to your list 🎉 </em>
       </p>
     );
 
@@ -13,8 +13,8 @@ export default  function Stats( { items } ) {
     <footer className="stats">
       <em>
         {percentage === 100
-          ? "You got everything! Ready to go ✈️ "
-          : `💼 You have ${numItems}items on your list,and you already packed 
+          ? "You are the best, you finish with your list "
+          : `💼 You have ${numItems}tasks on your list, you are finished with your list
         ${numPacked}(${percentage}% )`}
       </em>
     </footer>
